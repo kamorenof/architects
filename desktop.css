@@ -1,0 +1,31 @@
+section{
+    max-width: 1441px;
+}
+.projects,
+.about,
+.equipment,
+.contact,
+.map{
+    margin: 0 auto;
+}
+.nav-right{
+    grid-template-columns: repeat(3, 25%);
+    justify-content: right;
+    margin-right: 2rem;
+}
+.nav-right a{
+    text-align: right;
+}
+.img-nav{
+    margin-top: -22rem;
+    height: 51rem;
+}
+.cards-container{
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+.equipment{
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+.equipment-card img{
+    height: 50%;
+}

@@ -18,14 +18,34 @@
 .img-nav h1{
     grid-column: 1;
     margin: auto;
-    margin-left: 75%;
+    margin-right: 2%;
 }
 .img-nav p{
     display: grid;
     grid-column: 2;
     margin: auto;
-    margin-left: 5%;
+    margin-left: 2%;
     text-align: center;
     font-size: 3.5rem;
     color: white;
+}
+.projects{
+    margin: 0 1rem;
+}
+.projects h2{
+    margin: 6rem 1rem;
+}
+.cards-container{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+.card{
+    margin: 1rem;
+}
+.equipment{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+.equipment-card img{
+    height: 70%;
 }
