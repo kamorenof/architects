@@ -83,8 +83,9 @@ footer p{
     margin: 1rem auto;
 }
 .card p{
+    position: absolute;
     padding: 1.2rem;
-    background-color: black;
+    background-color: #27292C;
     color: beige;
 }
 .card img{
